@@ -8,3 +8,12 @@
 - 微服务较多的公司；
 - 中大型互联网公司；
 - 其他需要统一管理jar的版本号和jar依赖关系的场景。
+
+# 4.ark-super-pom如何使用？
+```xml
+<parent>
+    <groupId>com.ark</groupId>
+    <artifactId>ark-super-pom</artifactId>
+    <version>1.0</version>
+</parent>
+```
